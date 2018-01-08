@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from tests.acceptance.locators.new_post_page import NewPostPageLocators
-from tests.acceptance.page_model.base_page import BasePage
+from section10.tests.acceptance.locators.new_post_page import NewPostPageLocators
+from section10.tests.acceptance.page_model.base_page import BasePage
 
 
 class NewPostPage(BasePage):

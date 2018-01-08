@@ -4,7 +4,7 @@ try:
 except ImportError:
     from mock import patch
 
-from section3.video_code import app
+from video_code import app
 from blog import Blog
 from post import Post
 

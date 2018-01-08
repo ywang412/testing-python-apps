@@ -23,6 +23,7 @@ class UserTest(BaseTest):
                     'password': '1234'
                 }), headers={'Content-Type': 'application/json'})
 
+                print(json.loads(auth_request.data).keys())
                 self.assertIn('access_token', json.loads(auth_request.data).keys())
 
     def test_register_duplicate_user(self):
